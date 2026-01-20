@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Sans", sans-serif;
+    background-color: #fffafc;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+
+/* 左メニュー */
+
+.sidebar {
+    width: 200px;
+    background-color: #ffe4f2;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    color: #ff66aa;
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 15px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #ff66aa;
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    color: #ff3388;
+}
+
+
+/* 右の内容部分 */
+
+.content {
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+}
